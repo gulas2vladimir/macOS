@@ -33,7 +33,8 @@ jubler \
 tuxera-ntfs \
 burn \
 owncloud \
-yujitach-menumeters
+yujitach-menumeters \
+gpg-suite
 
 sudo gem install iStats
 ```
