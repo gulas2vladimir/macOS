@@ -12,6 +12,7 @@ adium \
 appcleaner \
 thunderbird \
 google-chrome \
+firefox \
 vlc \
 xld \
 transmission \
