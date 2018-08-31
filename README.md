@@ -61,3 +61,8 @@ mail.identity.default.reply_on_top -> 1
 mail.identity.default.compose_html -> True
 mail.server.default.check_all_folders_for_new -> True
 ```
+
+#### Disable/Enable Firewall
+```
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
+```
