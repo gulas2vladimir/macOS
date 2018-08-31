@@ -40,7 +40,7 @@ gpg-suite
 sudo gem install iStats
 ```
 
-#### Firefox:
+#### Firefox
 
 ```
 browser.cache.disk.enable -> False
@@ -48,7 +48,7 @@ browser.cache.memory.enable -> False
 network.dnsCacheExpiration -> 0
 ```
 
-#### Thinderbird:
+#### Thinderbird
 
 ```
 mailnews.default_news_sort_order -> 2
@@ -62,7 +62,7 @@ mail.identity.default.compose_html -> True
 mail.server.default.check_all_folders_for_new -> True
 ```
 
-#### Disable/Enable Firewall
+#### Disable -0 /Enable -1 Firewall
 ```
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
 ```
