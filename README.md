@@ -1,11 +1,20 @@
-# macOS
-```
+## brew
+```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
+## commandline tools
+```sh
 brew install dialog mc pass wget python3 gnupg2 tor youtube-dl git woof ansible inetutils
+```
 
+### start tor service
+```sh
 brew services start tor
+```
 
+## applications
+```sh
 brew cask install \
 java \
 adium \
@@ -22,7 +31,6 @@ vmware-fusion \
 torbrowser \
 utox \
 etcher \
-clamxav \
 garmin-express \
 android-file-transfer \
 arduino \
@@ -36,12 +44,14 @@ burn \
 owncloud \
 yujitach-menumeters \
 gpg-suite
+```
 
+## commandline iStats
+```sh
 sudo gem install iStats
 ```
 
-#### Firefox
-
+## Firefox
 ```
 browser.cache.disk.enable -> False
 browser.cache.memory.enable -> False
@@ -49,7 +59,6 @@ network.dnsCacheExpiration -> 0
 ```
 
 #### Thinderbird
-
 ```
 mailnews.default_news_sort_order -> 2
 mailnews.default_news_sort_type -> 18
