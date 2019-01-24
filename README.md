@@ -1,19 +1,19 @@
-## brew
+brew
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## commandline tools
+commandline tools
 ```sh
 brew install dialog mc pass wget python3 gnupg2 tor youtube-dl git woof ansible inetutils
 ```
 
-### start tor service
+start tor service
 ```sh
 brew services start tor
 ```
 
-## applications
+applications
 ```sh
 brew cask install \
 java \
@@ -46,19 +46,19 @@ yujitach-menumeters \
 gpg-suite
 ```
 
-## commandline iStats
+commandline iStats
 ```sh
 sudo gem install iStats
 ```
 
-## Firefox
+Firefox
 ```
 browser.cache.disk.enable -> False
 browser.cache.memory.enable -> False
 network.dnsCacheExpiration -> 0
 ```
 
-#### Thinderbird
+Thunderbird
 ```
 mailnews.default_news_sort_order -> 2
 mailnews.default_news_sort_type -> 18
@@ -71,7 +71,7 @@ mail.identity.default.compose_html -> True
 mail.server.default.check_all_folders_for_new -> True
 ```
 
-#### Disable -0 /Enable -1 Firewall
+Disable -0 /Enable -1 Firewall
 ```
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
 ```
