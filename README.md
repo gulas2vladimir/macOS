@@ -29,8 +29,6 @@ blueharvest \
 viscosity \
 vmware-fusion \
 torbrowser \
-utox \
-etcher \
 garmin-express \
 android-file-transfer \
 arduino \
@@ -43,7 +41,8 @@ tuxera-ntfs \
 burn \
 owncloud \
 yujitach-menumeters \
-gpg-suite
+gpg-suite \
+jumpcut
 ```
 
 commandline iStats
