@@ -9,25 +9,26 @@ homebrew
 commandline tools
 
 ```sh
-ansible
-bash
-ddrescue
-dialog
-git
-gnupg
-htop
-inetutils
-ipcalc
-jq
-midnight-commander
-mysql-client
-nmap
-pass
-python
-tor
-wget
-woof
-xz
+brew install \
+ansible \
+bash \
+ddrescue \
+dialog \
+git \
+gnupg \
+htop \
+inetutils \
+ipcalc \
+jq \
+midnight-commander \
+mysql-client \
+nmap \
+pass \
+python \
+tor \
+wget \
+woof \
+xz \
 youtube-dl
 ```
 
