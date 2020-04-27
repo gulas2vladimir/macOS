@@ -1,64 +1,96 @@
-brew
+# install
+
+homebrew
+
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 commandline tools
+
 ```sh
-brew install dialog mc pass wget python3 gnupg2 tor youtube-dl git woof ansible inetutils
+ansible
+bash
+ddrescue
+dialog
+git
+gnupg
+htop
+inetutils
+ipcalc
+jq
+midnight-commander
+mysql-client
+nmap
+pass
+python
+tor
+wget
+woof
+xz
+youtube-dl
 ```
 
 start tor service
+
 ```sh
 brew services start tor
 ```
 
 applications
+
 ```sh
 brew cask install \
-java \
-adium \
-appcleaner \
-thunderbird \
-google-chrome \
-firefox \
-vlc \
-xld \
-transmission \
-blueharvest \
-viscosity \
-vmware-fusion \
-torbrowser \
-garmin-express \
 android-file-transfer \
+appcleaner \
 arduino \
-libreoffice \
-visual-studio-code \
-teensy \
-spotify \
-jubler \
-tuxera-ntfs \
+blueharvest \
 burn \
-owncloud \
-yujitach-menumeters \
+firefox \
+garmin-express \
+google-chrome \
 gpg-suite \
-jumpcut
+java \
+jumpcut \
+libreoffice \
+menumeters \
+onyx \
+owncloud \
+rar \
+skype \
+slack \
+spotify \
+thunderbird \
+tor-browser \
+transmission \
+tuxera-ntfs \
+tuxguitar \
+viber \
+viscosity \
+visual-studio-code \
+vlc \
+vmware-fusion \
+whatsapp \
+xquartz
 ```
 
 commandline iStats
+
 ```sh
 sudo gem install iStats
 ```
 
 Firefox
-```
+
+```ini
 browser.cache.disk.enable -> False
 browser.cache.memory.enable -> False
 network.dnsCacheExpiration -> 0
 ```
 
 Thunderbird
-```
+
+```ini
 mailnews.default_news_sort_order -> 2
 mailnews.default_news_sort_type -> 18
 mailnews.default_sort_order -> 2
@@ -70,7 +102,8 @@ mail.identity.default.compose_html -> True
 mail.server.default.check_all_folders_for_new -> True
 ```
 
-Disable -0 /Enable -1 Firewall
-```
+Firewall disable/enable 0/1
+
+```sh
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
 ```
