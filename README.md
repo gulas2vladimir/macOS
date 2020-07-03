@@ -56,7 +56,7 @@ jumpcut \
 libreoffice \
 menumeters \
 onyx \
-owncloud \
+nextcloud \
 rar \
 skype \
 slack \
