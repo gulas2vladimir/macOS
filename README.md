@@ -101,6 +101,7 @@ mail.server.default.autosync_offline_stores -> False
 mail.identity.default.reply_on_top -> 1
 mail.identity.default.compose_html -> True
 mail.server.default.check_all_folders_for_new -> True
+mail.db.idle_limit -> 30000000
 ```
 
 Firewall disable/enable 0/1
