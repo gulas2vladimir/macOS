@@ -46,6 +46,7 @@ android-file-transfer \
 appcleaner \
 arduino \
 blueharvest \
+brave-browser \
 burn \
 firefox \
 garmin-express \
