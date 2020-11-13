@@ -40,7 +40,7 @@ brew services start tor
 applications
 
 ```sh
-brew tap homebrew/cask-drivers \
+brew tap homebrew/cask-drivers
 brew cask install \
 android-file-transfer \
 appcleaner \
