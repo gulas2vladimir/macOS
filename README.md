@@ -28,8 +28,7 @@ python \
 tor \
 wget \
 woof \
-xz \
-youtube-dl
+xz
 ```
 
 start tor service
@@ -41,6 +40,7 @@ brew services start tor
 applications
 
 ```sh
+brew tap homebrew/cask-drivers \
 brew cask install \
 android-file-transfer \
 appcleaner \
