@@ -10,12 +10,12 @@ commandline tools
 
 ```sh
 brew install \
-ansible \
 bash \
 ddrescue \
 dialog \
 git \
 gnupg \
+gnu-sed \
 htop \
 inetutils \
 ipcalc \
@@ -35,6 +35,18 @@ start tor service
 
 ```sh
 brew services start tor
+```
+
+python
+
+```sh
+download from https://www.python.org/downloads/
+```
+
+pip
+
+```sh
+pip install mysql-connector ansible
 ```
 
 applications
