@@ -27,7 +27,6 @@ pass \
 python \
 tor \
 wget \
-woof \
 xz
 ```
 
@@ -37,55 +36,47 @@ start tor service
 brew services start tor
 ```
 
-python
-
-```sh
-download from https://www.python.org/downloads/
-```
-
 pip
 
 ```sh
-pip install mysql-connector ansible
+/opt/homebrew/bin/python3 -m pip install mysql-connector ansible
 ```
 
-applications
+Applications
 
 ```sh
 brew tap homebrew/cask-drivers
-brew cask install \
-android-file-transfer \
-appcleaner \
-arduino \
-blueharvest \
-brave-browser \
-burn \
-firefox \
-garmin-express \
-google-chrome \
-gpg-suite \
-java \
-jumpcut \
-libreoffice \
-menumeters \
-onyx \
+brew install --cask \
 nextcloud \
-rar \
-skype \
-slack \
-spotify \
-thunderbird \
-tor-browser \
+whatsapp \
+visual-studio-code \
+veracrypt \
+vlc \
 transmission \
+tor-browser \
+thunderbird \
+spotify \
+slack \
+skype \
+signal \
+onyx \
+libreoffice \
+jumpcut \
+brave-browser \
+appcleaner \
+android-file-transfer \
+blueharvest \
+arduino \
+garmin-express \
+menumeters \
+rar \
 tuxera-ntfs \
-tuxguitar \
 viber \
 viscosity \
-visual-studio-code \
-vlc \
-vmware-fusion \
-whatsapp \
-xquartz
+microsoft-excel \
+microsoft-powerpoint \
+microsoft-word \
+vmware-fusion
 ```
 
 commandline iStats
