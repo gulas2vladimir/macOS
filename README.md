@@ -47,36 +47,36 @@ Applications
 ```sh
 brew tap homebrew/cask-drivers
 brew install --cask \
-nextcloud \
-whatsapp \
-visual-studio-code \
-veracrypt \
-vlc \
-transmission \
-tor-browser \
-thunderbird \
-spotify \
-slack \
-skype \
-signal \
-onyx \
-libreoffice \
-jumpcut \
-brave-browser \
-appcleaner \
 android-file-transfer \
-blueharvest \
+appcleaner \
 arduino \
+blueharvest \
+brave-browser \
 garmin-express \
+jumpcut \
+libreoffice \
 menumeters \
-rar \
-tuxera-ntfs \
-viber \
-viscosity \
 microsoft-excel \
 microsoft-powerpoint \
 microsoft-word \
+nextcloud \
+onyx \
+rar \
+signal \
+skype \
+slack \
+spotify \
+thunderbird \
+tor-browser \
+transmission \
+tuxera-ntfs \
+veracrypt \
+viber \
+viscosity \
+visual-studio-code \
+vlc \
 vmware-fusion
+whatsapp \
 ```
 
 commandline iStats
