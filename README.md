@@ -16,16 +16,22 @@ dialog \
 git \
 gnupg \
 gnu-sed \
+go \
+helm \
 htop \
 inetutils \
 ipcalc \
 jq \
+kubectx \
+kubernetes-cli \
 midnight-commander \
 mysql-client \
 nmap \
 pass \
 python \
+sslscan \
 tor \
+watch
 wget \
 xz
 ```
@@ -51,11 +57,13 @@ android-file-transfer \
 appcleaner \
 arduino \
 blueharvest \
-brave-browser \
+docker \
 garmin-express \
 jumpcut \
 libreoffice \
+macfuse \
 menumeters \
+microsoft-auto-update \
 microsoft-excel \
 microsoft-powerpoint \
 microsoft-word \
@@ -69,14 +77,13 @@ spotify \
 thunderbird \
 tor-browser \
 transmission \
-tuxera-ntfs \
 veracrypt \
 viber \
 viscosity \
 visual-studio-code \
 vlc \
-vmware-fusion
-whatsapp \
+vmware-fusion \
+whatsapp
 ```
 
 commandline iStats
