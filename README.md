@@ -53,9 +53,7 @@ Applications
 ```sh
 brew tap homebrew/cask-drivers
 brew install --cask \
-android-file-transfer \
 appcleaner \
-arduino \
 blueharvest \
 docker \
 garmin-express \
@@ -77,19 +75,23 @@ spotify \
 thunderbird \
 tor-browser \
 transmission \
-veracrypt \
 viber \
 viscosity \
 visual-studio-code \
 vlc \
-vmware-fusion \
 whatsapp
 ```
 
-commandline iStats
+Enable TouchID for sudo
 
-```sh
-sudo gem install iStats
+/etc/pam.d/sudo
+```
+auth 	   sufficient     pam_tid.so # Touch ID
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
 ```
 
 Firefox
