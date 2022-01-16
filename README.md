@@ -82,7 +82,7 @@ vlc \
 whatsapp
 ```
 
-Enable TouchID for sudo
+Enable Touch ID for sudo
 
 /etc/pam.d/sudo
 ```
