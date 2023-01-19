@@ -93,6 +93,11 @@ account    required       pam_permit.so
 password   required       pam_deny.so
 session    required       pam_permit.so
 ```
+Can’t be opened because Apple cannot check it for malicious software.
+
+```shell
+xattr -d com.apple.quarantine /opt/homebrew/bin/<file>
+```
 
 Firefox
 
