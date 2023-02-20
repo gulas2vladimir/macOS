@@ -45,7 +45,7 @@ brew services start tor
 pip
 
 ```sh
-/opt/homebrew/bin/python3 -m pip install mysql-connector ansible
+/opt/homebrew/bin/python3 -m pip install mysql-connector ansible requests jmespath
 ```
 
 Applications
